@@ -66,7 +66,7 @@ class BloggerAPI
 	public function GetToken($client,$code)
 	{
 		try {
-			$client->authenticate($_GET['code']);	
+			$client->authenticate($code);	
 			$token = $client->getAccessToken();
 
 			// get userinfo
