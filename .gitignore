@@ -1,0 +1,21 @@
+# test
+test.php
+
+# start
+start.bat
+
+#bugs
+bugs/*
+
+#storage
+storage/cache/*
+!storage/cache/.gitkeep
+
+storage/login/*
+!storage/login/.gitkeep
+
+# vendor
+vendor/*
+
+# config
+includes/api.dev.php
