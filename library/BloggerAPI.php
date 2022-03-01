@@ -160,7 +160,7 @@ class BloggerAPI
 					'response' => [
 						'id' => $userinfo['id'],
 						'user' => $userinfo['email'],
-						'token' => $client->getAccessToken()
+						'token' => json_encode($client->getAccessToken())
 					]
 				];
 			}else{
